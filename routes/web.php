@@ -25,3 +25,5 @@ Route::get('/pesan/peringatan','NotifController@peringatan');
 Route::get('/pesan/gagal','NotifController@gagal');
 //Bab 34
 Route::get('/malasngoding/{nama}','MalasngodingController@index');
+//Bab 35
+Route::get('/kirimemail','MalasngodingController@index');
