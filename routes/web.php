@@ -18,8 +18,10 @@ Route::get('/', function () {
 Route::get('/session/tampil','TesController@tampilkanSession');
 Route::get('/session/buat','TesController@buatSession');
 Route::get('/session/hapus','TesController@hapusSession');
-//Bab 32 Session flash
+//Bab 33 Session flash
 Route::get('/pesan','NotifController@index');
 Route::get('/pesan/sukses','NotifController@sukses');
 Route::get('/pesan/peringatan','NotifController@peringatan');
 Route::get('/pesan/gagal','NotifController@gagal');
+//Bab 34
+Route::get('/malasngoding/{nama}','MalasngodingController@index');
